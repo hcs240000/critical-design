@@ -6,6 +6,31 @@
 	margin: 64px auto;
 }
 
-* {
-	font-family: Arial;
+body {
+	background-color: #e6ce55;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+}
+
+.text {
+	width: 50%;
+	margin: 96px auto;
+
+.text * {
+	display: inline-block;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+}
+
+.backgroundImage:hover {
+	background-image: url(../img/clock.png);
+	cursor: crosshair;
 }
