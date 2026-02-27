@@ -9,23 +9,19 @@ body {
 	height: 400px;
 	margin: 64px auto;
 }
-
 .backgroundImage:hover {
 	background-image: url(../img/clock.png);
 	cursor: crosshair;
 }
-
 .text {
 	width: 50%;
 	margin: 96px auto;
 }
-
 h1 {
 	color: black;
 	font-size: 48px;
 	text-align: center;
 }
-
 .text * {
 	display: inline-block;
 	width: 48%;
@@ -33,7 +29,6 @@ h1 {
 	padding: 0;
 	vertical-align: middle;
 }
-
 h2 {
 	color: dodgerblue;
 	font-size: 40px;
@@ -43,18 +38,15 @@ h2 {
 	font-weight: 900;
 	font-style: normal;
 }
-
 h3 {
 	font-size: 16px;
 	text-align: right;
 }
-
 h3 a:link,
 h3 a:visited {
 	color: dodgerblue;
 	text-decoration: none;
 }
-
 h3 a:hover {
 	color: white;
 }
