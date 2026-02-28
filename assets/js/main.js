@@ -6,7 +6,7 @@ let targetElement = document.querySelector("h2");
 
 console.log(targetElement.outerHTML);
 
-targetElement.addEventListener("mouseover", functional() {
+targetElement.addEventListener("mouseover", function() {
     console.log(this.innerText);
     this.innerText = "TIME"
     this.style = "cursor: wait";
